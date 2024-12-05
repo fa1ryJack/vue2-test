@@ -5,6 +5,13 @@
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  max-height: 100vh;
+  min-height: 100vh;
+}
+
+.v-application--wrap {
+  max-height: 100vh;
+  min-height: fit-content;
 }
 
 a {
@@ -15,7 +22,6 @@ a {
   padding: 5px;
   transition: 0.3s;
 }
-a:hover{
+a:hover {
   border: 1px solid #3dd68c;
-
 }
